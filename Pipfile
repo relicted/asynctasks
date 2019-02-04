@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+ipython = "*"
+aiohttp-devtools = "*"
+aiohttp-debugtoolbar = "*"
+
+[packages]
+aiohttp = "*"
+motor = "*"
+aiosmtplib = "*"
+sendgrid = "*"
+aiojobs = "*"
+pyjwt = "*"
+aiohttp-jinja2 = "*"
+aiohttp-swagger = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+runserver = 'adev runserver app.py'
